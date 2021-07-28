@@ -1,0 +1,311 @@
+.fp-viewing-url-write-ToUs {
+    #header {
+        .stooller-logo {
+            color: #fff;
+        }
+
+        .navbar-brand>img {
+            filter: brightness(500%);
+        }
+    }
+}
+
+#write-ToUs {
+    background: linear-gradient(249.75deg, #38BEDB -11.27%, #189E96 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    padding-top: 78px;
+    padding-bottom: 60px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 513px;
+        height: 200px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: url("../img/semicircle.svg") no-repeat center;
+        background-size: 100% auto;
+    }
+
+    .container {
+        margin-top: auto;
+    }
+
+    textarea {
+        outline: none;
+        text-align: justify;
+        resize: none;
+    }
+}
+
+.write-ToUs__caption {
+    margin-bottom: 63px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.write-ToUs__form-control {
+    background: transparent;
+    height: 32px;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+    padding-left: 50px;
+    max-width: 420px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+
+    &:focus {
+        box-shadow: none;
+        border-bottom: 1px solid #ffffff;
+        outline: none;
+    }
+}
+
+.write-ToUs__form-control::-moz-placeholder {color: #ffffff;}
+.write-ToUs__form-control::-webkit-input-placeholder { color: #ffffff; }
+.write-ToUs__form-control:-ms-input-placeholder { color: #ffffff; }
+.write-ToUs__form-control::-ms-input-placeholder { color: #ffffff; }
+.write-ToUs__form-control::placeholder { color: #ffffff; }
+
+.write-ToUs__form-control-name {
+    background-image: url("../img/male.svg");
+    background-repeat: no-repeat;
+    background-position: 14px 2px;
+    background-size: 18px 18px;
+}
+
+.write-ToUs__form-control-phone {
+    background-image: url("../img/phone-receiver.svg");
+    background-repeat: no-repeat;
+    background-position: 14px 2px;
+    background-size: 18px 18px;
+}
+
+.write-ToUs__form-control-comment {
+    background-image: url("../img/pen.svg");
+    background-repeat: no-repeat;
+    background-position: 14px 2px;
+    background-size: 18px 18px;
+}
+
+.btn.yellow-btn-form {
+    background: #FFE047;
+    margin-right: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 9px 46px;
+    color: #373737;
+    background-size: 300% 100%;
+    transition: all .3s ease-in-out;
+    background-image: linear-gradient(to right, #FFE047, #FFE047, #e5c007, #e5c007);
+
+    &:hover {
+        background-position: 100% 0;
+        transition: all .3s ease-in-out;
+        color: #373737;
+        outline: none;
+    }
+
+    &:active {
+        box-shadow: none;
+        transition: all .3s ease-in-out;
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.write-ToUs__block-form {
+    p {
+        font-size: 16px;
+        margin-bottom: 45px;
+        color: #FFFFFF;
+    }
+}
+
+.write-ToUs__title {
+    font-size: 24px;
+}
+
+.write-ToUs__list {
+    padding-left: 0;
+    margin-top: 34px;
+    margin-bottom: 50px;
+
+    li {
+        list-style-type: none;
+        display: flex;
+        margin-bottom: 16px;
+
+        span {
+            min-width: 110px;
+            font-size: 18px;
+            color: #ffffff
+        }
+
+        p {
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: bold;
+            max-width: 340px;
+        }
+    }
+}
+
+.write-ToUs__block-social {
+    display: flex;
+    align-items: center;
+}
+
+.write-ToUs__block-social-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 29px;
+    height: 29px;
+    display: block;
+    margin-top: 9px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.write-ToUs__block-social-linkedin {
+    background: url("../img/linkedin-footer.svg") no-repeat center;
+    background-size: 100% auto;
+}
+
+.write-ToUs__block-social-github {
+    background: url("../img/github-footer.svg") no-repeat center;
+    background-size: 100% auto;
+}
+
+.write-ToUs__block-social-facebook {
+    background: url("../img/facebook-footer.svg") no-repeat center;
+    background-size: 100% auto;
+}
+
+.write-ToUs__block-social-instagram {
+    background: url("../img/instagram-footer.svg") no-repeat center;
+    background-size: 100% auto;
+}
+
+.write-ToUs__btn-bottom {
+    margin-top: 174px;
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate(-90px, 0%);
+    }
+    100% {
+        transform: translate(85px, 0%);
+    }
+}
+
+.editorial {
+    display: block;
+    width: 100%;
+    height: 10em;
+    max-height: 100vh;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.write-ToUs__list-text {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+    &:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+.parallax {
+    position: absolute;
+    bottom: 200px;
+}
+
+.write-ToUs__block-form-btn {
+    min-width: 198px;
+}
+
+/*prevent many large-by-comparison ripples by shrinking the height*/
+@media (max-width: 50em) {
+    .editorial {
+        height: 17vw;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #write-ToUs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .write-ToUs__btn-bottom {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .write-ToUs__form-control {
+        max-width: 100%;
+    }
+
+    .write-ToUs__block-form-btn {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    .write-ToUs__title {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+    }
+
+    .write-ToUs__list li p {
+        max-width: 100%;
+    }
+
+    #write-ToUs h4 {
+        font-size: 34px;
+        line-height: normal;
+        text-align: left !important;
+        justify-content: flex-start;
+        margin-bottom: 44px;
+    }
+}
+
+@media (max-width: 424.98px) {
+    .write-ToUs__list li span {
+        min-width: 80px;
+    }
+
+    .write-ToUs__block-form p {
+        font-size: 14px;
+    }
+}

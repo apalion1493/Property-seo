@@ -1,0 +1,21 @@
+.header {
+  margin-bottom: 150px;
+}
+
+.header__text {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 66px;
+
+  &:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    margin-bottom: 27px;
+  }
+}

@@ -1,0 +1,50 @@
+h1, .h1 {
+  font-size: rem(60);
+  line-height: rem(70);
+  color: #222222;
+}
+
+h2, .h2 {
+  font-weight: 900;
+  font-size: rem(36);
+  line-height: rem(42);
+  color: #222222;
+}
+
+h3, h3 {
+  font-size: rem(28);
+  line-height: rem(33);
+}
+
+.display-1 {
+  font-size: rem(230);
+  line-height: rem(270);
+}
+
+.green-text {
+  color: #A1FD59 !important;
+}
+
+.text-1 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  h2, .h2 {
+    font-size: 1.75rem;
+    line-height: normal;
+  }
+
+  h1, .h1 {
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  .display-1 {
+    font-size: 10rem;
+  }
+}

@@ -1,0 +1,48 @@
+.promotion-strategy {
+  padding-top: 85px;
+  padding-bottom: 66px;
+
+  p {
+    color: #777777;
+    margin-bottom: 22px;
+  }
+}
+
+.promotion-strategy__svg {
+  max-width: 389px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 135px;
+  display: block;
+}
+
+.promotion-strategy__svg-mob {
+  display: none;
+  width: 318px;
+  height: 408px;
+  margin: 18px auto;
+}
+
+@media (max-width: 767.98px) {
+  .promotion-strategy__svg {
+    display: none;
+  }
+  
+  .promotion-strategy__svg-mob {
+    display: block;
+  }
+
+  .promotion-strategy p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .promotion-strategy .section__title {
+    text-align: center;
+  }
+
+  .promotion-strategy {
+    padding-top: 44px;
+    padding-bottom: 30px;
+  }
+}

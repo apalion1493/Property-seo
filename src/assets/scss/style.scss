@@ -1,0 +1,50 @@
+//LIBRARY
+@import "library.styles/bootstrap/bootstrap";
+@import "node_modules/owl.carousel/src/scss/owl.carousel";
+
+@import "node_modules/animate.css/animate";
+
+//MIXINS
+@import "common.blocks/utils/mixins";
+
+//VARIABLE
+@import "common.blocks/utils/variable";
+
+//TEXT
+@import "common.blocks/utils/text";
+
+//FONTS
+@import "common.blocks/utils/fonts";
+
+//CONTAINERS
+
+@import "common.blocks/containers/commercial-factors";
+@import "common.blocks/containers/first-section";
+@import "common.blocks/containers/ghost-total";
+@import "common.blocks/containers/header";
+@import "common.blocks/containers/our-projects";
+@import "common.blocks/containers/project-architecture";
+@import "common.blocks/containers/promotion-strategy";
+@import "common.blocks/containers/technical-optimization";
+@import "common.blocks/containers/write-ToUs";
+@import "common.blocks/containers/menu-modal";
+@import "common.blocks/containers/other-jobs";
+@import "common.blocks/containers/you-get";
+
+//BLOCKS
+@import "common.blocks/block/burger";
+@import "common.blocks/block/icons";
+@import "common.blocks/block/bg-big-num";
+@import "common.blocks/block/block-info";
+@import "common.blocks/block/media-block-1";
+@import "common.blocks/block/media-block-2";
+@import "common.blocks/block/media-block-3";
+@import "common.blocks/block/tab";
+@import "common.blocks/block/table-style";
+@import "common.blocks/block/header";
+
+//main styles
+@import "common.blocks/utils/common";
+@import "common.blocks/utils/icons";
+
+

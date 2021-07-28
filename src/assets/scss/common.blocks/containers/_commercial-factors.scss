@@ -1,0 +1,46 @@
+.commercial-factors {
+  padding-top: 136px;
+  padding-bottom: 225px;
+  background: linear-gradient(249.75deg, #38BEDB -11.27%, #189E96 100%);
+
+  p {
+    color: #F7F7F7;
+  }
+
+  .section__title {
+    margin-bottom: 38px;
+    color: #FFFFFF;
+    display: block;
+  }
+}
+
+.commercial-factors__img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 991.98px) {
+  .commercial-factors__img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .commercial-factors {
+    padding-top: 41px;
+    padding-bottom: 32px;
+  }
+
+  .commercial-factors__img {
+    max-width: 300px;
+  }
+
+  .commercial-factors .section__title {
+    margin-bottom: 24px;
+  }
+}
+

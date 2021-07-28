@@ -1,0 +1,19 @@
+.you-get {
+  padding-bottom: 125px;
+  padding-top: 109px;
+}
+
+.you-get__title {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 767.98px) {
+  .you-get {
+    padding-top: 44px;
+    padding-bottom: 25px;
+  }
+
+  .you-get__title {
+    margin-bottom: 44px;
+  }
+}

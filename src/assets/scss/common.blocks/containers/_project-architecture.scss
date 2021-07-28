@@ -1,0 +1,29 @@
+.project-architecture {
+  background: linear-gradient(249.75deg, #38BEDB -11.27%, #189E96 100%);
+  padding-top: 89px;
+  padding-bottom: 150px;
+
+  p {
+    color: #F7F7F7;
+  }
+}
+
+.project-architecture__title.section__title {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  margin-top: 33px;
+}
+
+@media (max-width: 767.98px) {
+  .project-architecture {
+    padding-top: 40px;
+    padding-bottom: 53px;
+  }
+
+  .project-architecture__svg {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,132 @@
+/* Tabs */
+.tab-nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-link {
+  margin-right: 25px;
+  padding-top: 19px;
+  padding-bottom: 13px;
+  color: #555555;
+  display: inline-block;
+  background: #FFFFFF;
+  text-decoration: none;
+  border: 1px solid #ECECEC;
+  border-radius: 10px;
+  flex: 1;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-weight: bold;
+
+  &:hover {
+    color: initial;
+    text-decoration: none;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #989898;
+    font-weight: normal;
+  }
+
+  &.is-active {
+    color: #28AEB7;
+    background: #F8F6F6;
+    border: 1px solid #28AEB7;
+    box-shadow: 0px -2px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      right: 0;
+      width: calc(100% + 2px);
+      height: 20px;
+      background: #F8F6F6;
+    }
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+
+/* Tab Content */
+.tab-content {
+  display: none;
+  &.is-active {
+    display: block;
+    padding-top: 44px;
+  }
+}
+
+.tab-contents {
+  position: relative;
+  top: -8px;
+  background: #F8F7F7;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 200%;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      border-top: 1px solid #28AEB7;
+    }
+}
+
+@media (max-width: 1279.98px) {
+  .tab-link {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .tab-contents:before {
+    display: none;
+  }
+  
+  .tab-nav {
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .tab-link {
+    flex: calc(50% - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    &:last-child {
+      margin-right: 10px;
+    }
+  }
+
+  .tab-link.is-active:before {
+    display: none;
+  }
+}

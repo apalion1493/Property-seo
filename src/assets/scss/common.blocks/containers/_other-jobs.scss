@@ -1,0 +1,241 @@
+#other-jobs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 62px;
+    padding-bottom: 54px;
+
+    .h3 {
+        margin-bottom: 46px;
+    }
+
+    .other-jobs__padding {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .row {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+}
+
+.fp-viewing-url-other-jobs {
+    #header {
+        .stooller-logo {
+            color: #fff;
+        }
+
+        .navbar-brand>img {
+            filter: brightness(500%);
+        }
+    }
+}
+
+.other-jobs__row {
+    width: 100%;
+
+    .col-6 {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
+.other-jobs__container-img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+}
+
+.other-jobs__container-vput-img {
+    background-image: linear-gradient(215deg, #56eaf4, #38adf0);
+    align-items: center;
+    justify-content: center;
+
+    img {
+        position: relative;
+        top: 75px;
+        width: auto !important;
+    }
+}
+
+.other-jobs__container-stooler-img {
+    background-image: linear-gradient(206deg, #a8ee54, #51ffc7);
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    img {
+        position: relative;
+        top: 5px;
+        padding-top: 100px;
+    }
+}
+
+.other-jobs__container-ansy-img {
+    background-image: linear-gradient(217deg, #b5275a, #7c3773);
+}
+
+.other-jobs__container-text {
+    margin-top: 28px;
+
+    span {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #555555;
+        margin-bottom: 25px;
+        display: block;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        color: #777777;
+    }
+}
+
+.other-jobs__container-stooler-img {
+
+    img {
+        transition: 0.3s;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+    }
+}
+
+.other-jobs__container-ansy-img {
+    position: relative;
+
+    img {
+        position: absolute;
+        left: -35px;
+        bottom: -100px;
+    }
+}
+
+.btn.official-btn-blue {
+    border-radius: 20.5px;
+    padding: 12px 0;
+    max-width: 182px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background-size: 300% 100%;
+    transition: all .3s ease-in-out;
+    background-image: linear-gradient(to right, #178EC1, #178EC1, #11729c, #11729c);
+
+    &:hover {
+        background-position: 100% 0;
+        transition: all .3s ease-in-out;
+        color: #ffffff;
+        outline: none;
+    }
+
+    &:active {
+        box-shadow: none;
+        transition: all .3s ease-in-out;
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .other-jobs__container-img {
+        height: 300px;
+    }
+
+    .other-jobs__container-vput-img img {
+        max-width: 200%;
+    }
+
+    .other-jobs__container-stooler-img img {
+        max-width: 150%;
+    }
+
+    .other-jobs__container-ansy-img img {
+        max-width: 120%;
+        bottom: -30px;
+    }
+
+    .other-jobs__container-text {
+        margin-top: 10px;
+
+        p {
+            font-size: 14px;
+            line-height: normal;
+        }
+
+        span {
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+    }
+
+    #other-jobs {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .other-jobs__container-ansy-img img {
+        position: relative;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+    }
+
+    #other-jobs {
+        padding-bottom: 30px;
+
+        .h3 {
+            margin-bottom: 30px;
+        }
+    }
+
+    .other-jobs__container-text {
+        margin-top: 25px;
+
+        p {
+            display: none;
+        }
+    }
+
+    .other-jobs__container {
+        margin-bottom: 40px;
+    }
+
+
+}
+
+@media (max-width: 575.98px) {
+    .other-jobs__container-stooler-img img {
+        margin-left: auto;
+    }
+
+    .other-jobs__container-ansy-img img {
+        max-width: 220px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .other-jobs__container-vput-img img {
+        max-width: 245%;
+    }
+
+}
