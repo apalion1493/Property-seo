@@ -53,3 +53,9 @@
     }
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .table-style thead {
+   background: #28aeb7;
+ }
+}

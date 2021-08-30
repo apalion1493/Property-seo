@@ -14,6 +14,13 @@
   margin-top: 33px;
 }
 
+.project-architecture__svg {
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 767.98px) {
   .project-architecture {
     padding-top: 40px;
@@ -22,8 +29,5 @@
 
   .project-architecture__svg {
     width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
